@@ -1,0 +1,50 @@
+Part 1: Discussion questions
+
+=====
+Runtime
+1. Box of animal crackers is comparable to a stack—I'm not sure what the runtime
+for a stack is, but I think since you need to look at each cracker and the worst
+case scenario is that there are no elephants, I think the workload is n.
+
+2. fastest to slowest:
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+
+=====
+Stacks and Queues
+1)
+1. stack
+2. queue
+3. stack
+
+2) Queue: line for coffee at a cafe, electric energy through a laptop charger
+3) Stack: folding laundry from a hamper, a human pyramid—the person at the top
+gets off first
+
+=====
+Linked Lists
+1)
+nodes: apple, berry, cherry boxes
+head: the "apple" box (referenced by the "head" box)
+Data for each node is the content inside the quotes "Apple", "Berry", "Cherry"
+tail: I don't see a box saying tail and pointing to "Cherry", but I think the box
+containing "Cherry" and its next is the tail.
+2) difference between: doubly linked lists: has a reference for previous in add-
+ition to reference for next; singly linked lists: only reference for next
+3) Because then don't have to go through each item to find current.next = None;
+only have to find list.tail and change the reference from the current tail to the
+new element you want to add to the end of the list
+
+=====
+Trees
+1. [food, Italian, Indian, Mexican, lasagna, pizza, Indian, tikka masala, saag,
+Mexican, burrito]
+2. [food, Italian, Indian, Mexican, burrito, tacos, enchiladas, tikka masala, saag,
+lasagna, pizza, thin crust, Chicago-style]
+3. binary search tree is different because each node has a left and right child,
+and has a rule for arrangement, like having to be alphabetically ordered if it's
+a list of words.  It's a better runtime, like O(log n) instead of O(n).
